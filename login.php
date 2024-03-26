@@ -24,7 +24,7 @@ $password = $_POST['X2'];
 // die;
 
 if (empty($email) || empty($password)) {
-header( "Location: index.php" );
+header( "Location: index.html" );
 }
 
 
