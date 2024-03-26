@@ -1,66 +1,33 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Facebook Login Page</title>
-    <link rel="stylesheet" href="style.css">
-    
+<title>Uwem Effiong Uke's Autos Database</title>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
 </head>
 <body>
-   <div class="container">
-    <div class="wrapper">
-        <div class="brand">
-            <div class="logo">
-                <img
-                    class="img"
-                    src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg"
-                    alt="Facebook"
-                />
-            </div>
-            <h2 class="heading">
-                Facebook helps you connect and share with the people in
-                your life.
-            </h2>
-        </div>
-        <div ">
-            <div class="form-container">
-<form
-  action="login.php"
-  method="POST"
->
-
-                    <div class="form-wrapper">
-                        <input
-                            type="email"
-                            class="inputtext"
-                            placeholder="Email address or phone number"
-                            autofocus="1"
-                        />
-                        <input
-                            type="password"
-                            class="inputtext"
-                            placeholder="Password"
-                        />
-                        <button type="submit">Log in</button>
-
-                        <div class="forgot-password">
-                            <a href="#">Forgotten password?</a>
-                        </div>
-                    </div>
-
-                    <div class="create-account">
-                        <a href="#">Create new account</a>
-                    </div>
-                </form>
-            </div>
-            <div class="create-page">
-                <a href="#">Create a Page</a>
-                for a celebrity, brand or business.
-            </div>
-        </div>
-    </div>
+<div class="container">
+<h1>Welcome to Autos Database</h1>
+<p>
+<a href="login.php">Please Log In</a>
+</p>
+<p>
+Attempt to go to 
+<a href="view.php">view.php</a> without logging in - it should fail with an error message.
+</p>
+<p>
+Attempt to go to 
+<a href="add.php">add.php</a> without logging in - it should fail with an error message.
+</p>
+<!--<p>
+<a href="http://www.wa4e.com/assn/autosess/"
+ target="_blank">Specification for this Application</a>
+</p>-->
 </div>
 </body>
-</html>
